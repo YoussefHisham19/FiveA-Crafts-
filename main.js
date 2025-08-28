@@ -13,3 +13,11 @@ filterBtns.forEach(btn => {
     });
   });
 });
+filterBtns.forEach(btn=>{
+  btn.addEventListener('click', function () {
+filterBtns.forEach(btn=>btn.classList.remove('active'));
+this.classList.add('active')
+  })
+})
+
+fetch("https://api.sheety.co/b9c9bc956c783efdf3c63a59e3f8f34d/جدول")

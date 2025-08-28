@@ -106,13 +106,19 @@ h2:not(main h2){
 #filterBtns button{
      border-radius:1rem ;
      background: #FFFFFF ;
-     color:#E0BA6A;
+     color:#B79755;
      height:3rem ;
      width:8rem ;
      font-size:1rem ;
      font-weight:bold ;
-      border:none ;
+     border: none ;
+     transition: 0.3s;
      margin: 1rem 1rem 1rem 1rem; 
+}
+#filterBtns .active{
+    background:#B79755;
+    color:#FFFFFF ;
+    box-shadow: 0 0 1rem #B79755;
 }
 #products{
     display:flex ;
