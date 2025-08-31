@@ -1,0 +1,145 @@
+
+body{
+      font-family: serif;
+      background: #E6D7C0;
+      background-repeat: no-repeat ;
+      background-size:200vh ;
+  
+}#contact{
+    position:fixed ;
+    right:1rem ;
+    bottom:1rem ;
+    
+}
+h3{
+  font-family: "Zain", sans-serif;
+  font-weight: 1000;
+  font-style: normal;
+}
+
+h1, p{
+  font-family: "Tangerine", cursive;
+  font-weight: 1000;
+  font-style: italic;
+  font-size:2.5rem ;
+  color: #996C0D ;
+}
+#identity{
+    font-size:1rem ;
+}
+#contact img{
+    height:5rem ;
+    width:5rem ;
+}
+
+nav .links a {
+  margin-left: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+
+main{
+      background: url("Back.webp");
+    background-position:center ; 
+    height:20rem ;
+    background-size:cover;
+    background-repeat:no-repeat ;
+    align-content:center ;
+    text-align :center ;
+}
+
+#whyus p{
+    background:#FFFFFF ;
+}
+h2:not(main h2){
+    border-bottom:3px #E3C9A6 solid ;
+    width: 10rem ;
+    color:#4B0085 ;
+}
+#filterBtns{
+   text-align:center ;
+   
+}
+#filterBtns button{
+     border-radius:1rem ;
+     background: #FFFFFF ;
+     color:#B79755;
+     height:3rem ;
+     width:8rem ;
+     font-size:1rem ;
+     font-weight:bold ;
+     border: none ;
+     transition: 0.3s;
+     margin: 1rem 1rem 1rem 1rem; 
+}
+#filterBtns .active{
+    background:#B79755;
+    color:#FFFFFF ;
+    box-shadow: 0 0 1rem #B79755;
+}
+#products{
+    display:flex ;
+    flex-wrap:wrap ;
+    margin-top:5rem ;
+    gap:1rem ;
+    justify-content:center ;
+}
+.product {
+    background: #F8F8F8;
+    padding:0rem ;
+    justify-content:center ;
+    width:10rem ;
+    
+}
+h3{
+    padding:0 1rem 0 1rem;
+}
+    div img {
+    height:10rem ;
+    width:10rem ;
+    object-fit: cover ;
+    text-align:center ;
+}  
+
+
+.product a{
+    background:#000000;
+}
+
+.product {
+  opacity: 0;
+  transform: scale(1) translateY(0);
+}
+.product.hide {
+  animation: hideAnim 0.3s forwards;
+}
+
+.product {
+  animation: showAnim 0.3s forwards;
+}
+
+@keyframes hideAnim {
+  0% { opacity: 1; transform: scale(1) translateY(0); }
+  100% { opacity: 0; transform: scale(0.95) translateY(-10px); }
+}
+
+@keyframes showAnim {
+  0% { opacity: 0; transform: scale(0.95) translateY(10px); }
+  100% { opacity: 1; transform: scale(1) translateY(0); }
+}
+h5{
+    font-family: snase-serif;
+  font-family: "Delius", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+p{
+    font-family: Arial ;
+    font-weight:bold ;
+    padding:0.15rem ;
+    font-size:0.5rem ;
+}
